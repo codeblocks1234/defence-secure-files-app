@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*head*/
+.header_bg{background:#ffffff;}
+#pageDefault #header{background:url(top-r.jpg) no-repeat right bottom;}
+/*2像素下边框*/
+#pageDefault #header{ border-color:#3b7ec2; border-bottom-width: 2px;}
+/*头部文字颜色*/
+#pageDefault .userInfo{ color:#26448d;}
+#pageDefault .userInfo span{ color:#26448d;}
+#pageDefault .useraAction a{ color:#26448d;}
+#pageDefault .useraAction{ color:#26448d;}
+/*头部tab字体颜色 非选中状态*/
+#pageDefault #header .tab li{color:#4d5e96;}
+/*头部tab边距*/
+#pageDefault #header .tab li{ margin-left:1px;}
+/*头部分割线*/
+.separate-line{background:#26448d;}
+/*写信页附件上传按钮的分割线*/
+.control_link .separate-line{background:#999;}
+
+/*head search*/
+.searchWrap .searchContent{ border-color:#6a89af;}
+
+/*头部tab*/
+#pageDefault #header .tab li{ background: #d8e5f3; border-color: #d8e5f3;}
+#pageDefault #header .tab li.hover{ background: #e2ecf6;border-color: #e2ecf6;}
+#pageDefault #header .tab li.on{ background: #3b7ec2;border-color: #3b7ec2;}
+
+/*星标邮件夹图标*/
+.qm_ico_Lstar{background-image:url('mail_icoGroup.png');background-position:-487px 0;}
+.selectFolder_li .qm_ico_Lstar{background-position:-510px 0;}
+
+/********************************************左侧*********************************/
+/*左侧背景*/
+#pageDefault #sidebar{ background: #ffffff;}
+.left_border{ border-color:#ced6e2;}
+
+/*左侧写信读信按钮*/
+#pageDefault #sidebar .receiveCompose{ border-color: #cfdbea; background: #f5f9fd ;}
+#pageDefault #sidebar .receiveCompose li.receive{ border-right-color:#cfdbea;}
+#pageDefault #sidebar .receiveCompose li.on{ background: #eaf3fb ;}
+#pageDefault #sidebar .receiveCompose a{ color:#2450a9;}
+/*左侧文字颜色*/
+.leftFolder-FolderName,.folder_other,.folder_other:hover{color:#2c3a8b;}
+/*左栏括号里字体的颜色*/
+.leftFolder-FolderName .count a{ color:#2c3a8b; }
+/*左侧分割线*/
+#pageDefault #sidebar .nav li.line{background:#d7dde7; border-bottom-color:#ffffff;}
+/*选中效果颜色*/
+.selectFolder_li{ background: #3b7ec2;}
+
+/*左栏选中字体颜色*/
+.selectFolder_li .leftFolder-FolderName,.selectFolder_li .count a{ color: #fff;}
+.selectFolder_li,.selectFolder_li a,.selectFolder_li a:hover{ color: #fff;}
+
+/*左栏移上去的颜色*/
+.mailFolderListColor{background: #dae7f4;}
+
+/************************  弹出框  ***********************************/
+.boxIframeTitle h2{ background: #3b7ec2; color: #fff;}
+.boxIframeMain {background-color:white;border:2px;}
+.boxIframeBtn{background-color: #fafafa; }
+
+
+
+/**************************** *****************   common     ************************/
+.del_reback{background-image:url('mail_icoGroup.png');background-position:-401px 0;}
+#pageDefault #sidebar .compose i{background-image:url('mail_icoGroup.png');background-position:-263px 0; }
+#pageDefault #sidebar .nav a.action{ background-image:url('mail_icoGroup.png');}
+#pageDefault #sidebar .nav a.action{ background-position:0 0;}
+#pageDefault #sidebar .nav a:hover.action{background-position:-19px 0;}
+#pageDefault #sidebar .nav a.action.add{background-position:-36px 2px;}
+#pageDefault #sidebar .nav a:hover.action.add{background-position:-50px 2px;}
+#pageDefault #sidebar .nav a.manage{background-image:url('mail_icoGroup.png');background-position:-69px 0;}
+#pageDefault #sidebar .nav a:hover.manage{background-position:-89px 0;}
+.i-folderOff{background-position:-142px 3px;}
+.i-folderOn{background-position:-156px 5px;}
+#pageDefault #sidebar .folderOn i, #pageDefault #sidebar .folderOff i, .i-folderOff, .i-folderOn{background-image:url('mail_icoGroup.png');}
+#pageDefault #sidebar .nav a.lockico{background-image:url('mail_icoGroup.png'); background-position:-110px 0;}
+#pageDefault #sidebar .nav a:hover.lockico{ background-position:-127px 0;}
+#pageDefault .userInfo i{background-image:url('mail_icoGroup.png'); background-position:-350px 6px; }
+#pageDefault #sidebar .receive i{ background-image:url('mail_icoGroup.png'); background-position:-237px 0;}
+
+
+/*tab*/
+#pageDefault #header a:link#closeAllTabs,#pageDefault #header a:visited#closeAllTabs{background-image:url('mail_icoGroup.png');}
+#pageDefault #header a:hover#closeAllTabs,#pageDefault #header a:active#closeAllTabs{background-image:url('mail_icoGroup.png');}
+#pageDefault #header .tab .close{background-image:url('r_cls.png'); _background-image:url('r_cls_8.png'); background-position:-63px 6px; }
+#pageDefault #header .tab .close:hover{background-position:0 6px;}
+#pageDefault #header .tab .on .close{background-position:-90px 7px;}
+#pageDefault #header .tab .on .close:hover{background-position:-33px 7px;}
+#pageDefault #header a#closeAllTabs:link, #pageDefault #header a#closeAllTabs:visited{ background-position: -288px 0;}
+#pageDefault #header a:hover#closeAllTabs{ background-position: -314px 0;}
+
+/*main*/
+.listHeader p{ color:#767676;}
+/*通讯录*/
+.newsletter_tab li a{color:#23317a;}
+/*附件管理*/
+#searchTitle{background:#f8f8f8;}
+/*n_btn_on*/
+.n_btn, .n_btn_slide{ background: #F8F8F8; border: 1px solid #e2e2e2;}
+.n_btn:hover, .n_btn_slide:hover{ background: #F2F2F2;}
+.n_btn_on{ background:#068BDC; border-color:#068BDC;}
+.n_btn_on:hover{ background: #00AD14;}
+
+.popdiv li.on a{ color:#fff;}
+#container .nav-hd li.currentd{ background:#fff;}
+.secName{color: #686045;margin: -2px 15px 0 0;font-weight: bold;font-size: 16px;float: left;}
+
+/*搜索*/
+.searchWrap .searchLeft, .searchWrap .searchRight{background-image:url('mail_icoGroup.png');background-position:-430px 0;}
+.j_search_btn{background-color: #fff; background-image:url('mail_icoGroup.png');background-position:-425px 4px;}
+.searchWrap .searchRight{background-position:-381px 0; }
+/*移上去颜色灰色*/
+.aco_pis p a:hover,.search-ulone li.on,.search-ultwo li.on{background:#e8e8e8;}
+.newsletterData .labelIndex a:hover,.newsletterData .labelIndex a.current,.menuPop li.on a,.popList-style li a:hover,.toolBut_drop li a:hover,.autoComplete a.hover,.module_pop li a:hover, .signNmae-set li a:hover, .commend-sign li a:hover, .row-space li a:hover,.left_setWrapper ul li .ahover,.popdiv li.on{background:#e8e8e8; color: #444;}
+#subjectColor a.mouseon_color_on{background:#e8e8e8;}
+#subjectColor a.mouseon_color{background:#e8e8e8;}
+#subjectColor a.mouseon_color b{ border-color:#e8e8e8;}
+.user_ul li a:hover,.manager_ul li a:hover{background:url(acount_dot_on.png) no-repeat 13px 50% #e8e8e8;}
+.manager_ul li a.on:hover{background:url(acount_dot_on.png) no-repeat 13px 50% #e8e8e8;}
+#adjManage .sider li:hover,#adjManage .sider li.hover{background:#e8e8e8;}
+
+/*内页的层级三角*/
+.i-hminus,.i-sadd,.setSign-box-til i.i-sli,.setSign-box-til i.i-sli-show,.i_senior_sli,.i_senior_sli_on{background-image:url('mail_icoGroup.png');}
+.i-sadd{background-position: -449px 4px;}
+.i-hminus{background-position: -464px 6px;}
+.setSign-box-til i.i-sli{background-position: -454px 0;}
+.setSign-box-til i.i-sli-show{background-position: -468px 0;}
+.i_senior_sli{background-position: -463px 6px;}
+.i_senior_sli_on{background-position: -449px 4px;}
+
+/*弹出框*/
+.i_t_close,.i_t_close:hover{background-image:url('r_cls.png'); _background-image:url('r_cls_8.png');}
+.i_t_close{ background-position: -155px 0;}
+.i_t_close:hover{ background-position: -120px 0;}
+
+/*切换bar边框颜色*/
+.loginSearchTab li a.current{border-bottom:3px solid #636363;}
+.newsletter_tab,.header,.loginSearchTab{ border-bottom-color:#e8e8e8;}
+
+/*toolbar的颜色*/
+#totalCount,#showPersonListDetail{background:#eae8de;}
+#containerA h1{background:#eae8de; color:#244b18; }
+#attachlist_container h3{background:#eae8de; }
+#pageSetIndex h2{background-color:#f8f8f8;}
+
+/*    toolbar下边框颜色   */
+.btm_pager,.bottomPageWrap{border-top-color:#e8e8e8; background: #f8f8f8;}
+.list th{ border-top: 1px solid #e8e8e8;}
+
+/*分类条字体颜色*/
+.ban-til,.set_til{ color:#444;}
+
+/*设置首页字体颜色*/
+#pageSetIndex dt a{}
+
+/*切换bar字体颜色*/
+.nav-hd a,.loginSearchTab li a{color:#4f4a38;}
+
+/*设置页左侧*/
+.left_setWrapper{background-color:#f8f8f8; border-right-color:#f2f2f2;}
+.left_setWrapper ul li a{color:#444;}
+.set-edit-wrap{background:#f8f8f8;}
